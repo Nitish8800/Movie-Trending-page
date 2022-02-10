@@ -1,0 +1,78 @@
+#result {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 40px;
+    justify-content: space-around;
+    margin: auto 5%;
+    margin-top: 2%;
+  }
+
+  #item {
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+  }
+
+  img {
+    width: 100%;
+    height: 250px;
+  }
+
+  body {
+    background-image: url("https://i.giphy.com/media/Ha6xdymclg2pBgwuw3/giphy.webp");
+  }
+  h1 {
+    text-align: center;
+    color: rgb(236, 226, 222);
+  }
+  h2 {
+    text-align: center;
+    color: rgb(94, 255, 0);
+  }
+  h3 {
+    text-align: center;
+    color: rgb(0, 38, 255);
+  }
+  button {
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    font-size: 26px;
+    font-family: "Alegreya Sans SC", sans-serif;
+    display: inlline-block;
+    margin: auto;
+    transition: all 0.3s;
+  }
+
+  button:hover {
+    transition: all 0.2s;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  button:active {
+    transition: none; /* So when you tap, effect is instant */
+    padding: 0; /* Firefox adds padding because it's a special sausage */
+  }
+
+  body > div:nth-child(2) > button:nth-child(2) {
+    color: #1cb;
+    background-color: white;
+    border: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+
+  body > div:nth-child(2) > button:nth-child(2):active {
+    transform: rotate(360deg);
+    transition: none;
+  }
+
+  #search {
+    margin: 2% auto;
+    /* display: block; */
+    padding: 10px 12px;
+    border: 1px solid violet;
+  }
